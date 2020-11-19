@@ -1,0 +1,92 @@
+{
+  "total" : 8,
+  "items" : [ {
+    "uid" : "9f489f7e1e2706baabce3b4875be031d",
+    "name" : "com.bestbuy.playground.tests.products.get_product.GetProductsTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "31bc6fa480d5f32fc993d189bbc5197c",
+    "name" : "com.bestbuy.playground.tests.services.get_service.GetServicesTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "b4bd6087d7a230597d0a811ae7bc58a3",
+    "name" : "com.bestbuy.playground.tests.products.add_product.AddProductTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a842842935d160e896f3b67cbfffbd60",
+    "name" : "com.bestbuy.playground.tests.products.delete_product.DeleteProductTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d70f08c8f2a5d4e8d635920b15fea397",
+    "name" : "com.bestbuy.playground.tests.products.update_product.UpdateProductTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "15d015d5b36d7c3794800a487e2c54e0",
+    "name" : "com.bestbuy.playground.tests.services.add_service.AddServiceTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "aa61d6a94a2546893d1ee58cd37adf01",
+    "name" : "com.bestbuy.playground.tests.services.delete_service.DeleteServiceTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "79f7d52adedfebbe0ba186d49f69b4c7",
+    "name" : "com.bestbuy.playground.tests.services.update_service.UpdateServiceTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

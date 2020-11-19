@@ -1,0 +1,101 @@
+[ {
+  "uid" : "f6e891dabe384aa",
+  "name" : "ShouldReturnAllProducts()",
+  "time" : {
+    "start" : 1592133090843,
+    "stop" : 1592133091036,
+    "duration" : 193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ce7a5c007b22aec",
+  "name" : "ShouldDeleteService()",
+  "time" : {
+    "start" : 1592133091480,
+    "stop" : 1592133091590,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8113c7903c04149c",
+  "name" : "ShouldAddProductAndVerify()",
+  "time" : {
+    "start" : 1592133090138,
+    "stop" : 1592133090347,
+    "duration" : 209
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac3a46808cf6dc7b",
+  "name" : "ShouldGetAllServicesList()",
+  "time" : {
+    "start" : 1592133091700,
+    "stop" : 1592133091740,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "992717ed2907e17a",
+  "name" : "ShouldDeleteProduct()",
+  "time" : {
+    "start" : 1592133090606,
+    "stop" : 1592133090679,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "faec9c5bcec0de62",
+  "name" : "ShouldReturnProductWithSpecificId()",
+  "time" : {
+    "start" : 1592133090812,
+    "stop" : 1592133090841,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fccb399b13d0a059",
+  "name" : "ShouldUpdateProduct()",
+  "time" : {
+    "start" : 1592133091163,
+    "stop" : 1592133091278,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34e7959cf3e2f77d",
+  "name" : "ShouldGetServiceById()",
+  "time" : {
+    "start" : 1592133091660,
+    "stop" : 1592133091698,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2af9ee1da7afa6c",
+  "name" : "ShouldUpdateService()",
+  "time" : {
+    "start" : 1592133091795,
+    "stop" : 1592133091855,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d277e7efce72026",
+  "name" : "ShouldAddServiceAndVerify()",
+  "time" : {
+    "start" : 1592133091352,
+    "stop" : 1592133091420,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

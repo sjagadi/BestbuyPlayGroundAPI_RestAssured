@@ -1,0 +1,35 @@
+<div>PATCH to http://localhost:3030/products?id=9999799</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;price&quot;: 299.99,
+    &quot;name&quot;: &quot;TV&quot;,
+    &quot;upc&quot;: &quot;767466358078&quot;,
+    &quot;description&quot;: &quot;This is TV&quot;,
+    &quot;model&quot;: &quot;2019&quot;,
+    &quot;type&quot;: &quot;Home Appliance&quot;
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json; charset=UTF-8</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X PATCH &#39;http://localhost:3030/products?id=9999799&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json; charset=UTF-8&#39; -d &#39;{
+    &quot;price&quot;: 299.99,
+    &quot;name&quot;: &quot;TV&quot;,
+    &quot;upc&quot;: &quot;767466358078&quot;,
+    &quot;description&quot;: &quot;This is TV&quot;,
+    &quot;model&quot;: &quot;2019&quot;,
+    &quot;type&quot;: &quot;Home Appliance&quot;
+}&#39;
+</div>
