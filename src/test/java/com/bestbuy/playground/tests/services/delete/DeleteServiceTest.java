@@ -1,4 +1,4 @@
-package com.bestbuy.playground.tests.services.delete_service;
+package com.bestbuy.playground.tests.services.delete;
 
 import com.bestbuy.playground.tests.services.AbstractServicesAPI;
 import org.junit.jupiter.api.Test;

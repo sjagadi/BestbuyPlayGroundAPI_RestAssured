@@ -1,7 +1,6 @@
-package com.bestbuy.playground.tests.services.get_service;
+package com.bestbuy.playground.tests.services.get;
 
 import com.bestbuy.playground.tests.services.AbstractServicesAPI;
-import io.restassured.response.ValidatableResponse;
 import org.junit.jupiter.api.Test;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.greaterThan;

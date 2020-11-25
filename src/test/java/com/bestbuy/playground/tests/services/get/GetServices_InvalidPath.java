@@ -1,10 +1,9 @@
-package com.bestbuy.playground.tests.services.get_service;
+package com.bestbuy.playground.tests.services.get;
 
 import com.bestbuy.playground.tests.services.AbstractServicesAPI;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.greaterThan;
 
 public class GetServices_InvalidPath extends AbstractServicesAPI {
     @Test
