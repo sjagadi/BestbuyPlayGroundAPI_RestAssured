@@ -1,4 +1,4 @@
-package com.bestbuy.playground.tests.services.update_service;
+package com.bestbuy.playground.tests.services.update;
 
 import com.bestbuy.playground.requests.ServicesAPI;
 import com.bestbuy.playground.tests.services.AbstractServicesAPI;

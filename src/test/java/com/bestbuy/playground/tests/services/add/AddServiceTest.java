@@ -1,4 +1,4 @@
-package com.bestbuy.playground.tests.services.add_service;
+package com.bestbuy.playground.tests.services.add;
 
 import com.bestbuy.playground.tests.services.AbstractServicesAPI;
 import org.junit.jupiter.api.Test;
