@@ -28,6 +28,19 @@ public class StoresAPI extends CommonAPI {
                 .post(ProductsApiUrl.getStoresUrl());
     }
 
+    public Response updateStore(int storeId, String payload) {
+        return getSpecification()
+                .param("id", storeId)
+                .body(payload)
+                .patch(ProductsApiUrl.getStoresUrl());
+    }
+
+    public Response deleteStore(int id) {
+        return getSpecification()
+                .param("id", id)
+                .delete(ProductsApiUrl.getStoresUrl());
+    }
+
     public static class ProductsApiUrl {
         static String getStoresUrl() {
             return "/stores";

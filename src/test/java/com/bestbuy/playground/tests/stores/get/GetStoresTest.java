@@ -2,7 +2,6 @@ package com.bestbuy.playground.tests.stores.get;
 
 import com.bestbuy.playground.tests.stores.AbstractStoresAPI;
 import org.junit.jupiter.api.Test;
-
 import static org.hamcrest.Matchers.equalTo;
 
 public class GetStoresTest extends AbstractStoresAPI {
@@ -15,9 +14,9 @@ public class GetStoresTest extends AbstractStoresAPI {
 
     @Test
     public void ShouldReturnStoreFilterById() {
-        bestbuy.storesAPI().getStoresById(storesId)
+        bestbuy.storesAPI().getStoresById(storeId)
                 .then().statusCode(200)
-                .body("data[0].id", equalTo(storesId));
+                .body("data[0].id", equalTo(storeId));
     }
 
     @Test

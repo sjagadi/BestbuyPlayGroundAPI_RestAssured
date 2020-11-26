@@ -3,7 +3,7 @@ package com.bestbuy.playground.tests.stores;
 import com.bestbuy.playground.base.CommonAPI;
 import com.bestbuy.playground.requests.StoresAPI;
 import io.restassured.response.ValidatableResponse;
-import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;
 
@@ -18,11 +18,11 @@ public class AbstractStoresAPI extends CommonAPI {
     public static double lat;
     public static double lng;
     public static String hours;
-    public static int storesId;
+    public static int storeId;
     public static String payload;
 
-    @BeforeAll
-    public static void addStore() {
+    @BeforeEach
+    public void addStore() {
         name = "New Store";
         type = "BigBox";
         address = "123 Fake St";
@@ -46,6 +46,6 @@ public class AbstractStoresAPI extends CommonAPI {
                 .body("lat", equalTo((float)lat))
                 .body("lng", equalTo((float)lng))
                 .body("hours", equalTo(hours));
-        storesId = response.extract().jsonPath().get("id");
+        storeId = response.extract().jsonPath().get("id");
     }
 }
