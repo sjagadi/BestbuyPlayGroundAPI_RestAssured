@@ -1,9 +1,0 @@
-com\bestbuy\playground\base\PropertyReader.class
-com\bestbuy\playground\requests\ServicesAPI$ServicesApiUrl.class
-com\bestbuy\playground\requests\ProductsAPI.class
-com\bestbuy\playground\client\BestbuyClient.class
-com\bestbuy\playground\requests\ProductsAPI$ProductsApiUrl.class
-com\bestbuy\playground\requests\ProductsAPI$ProductBuilder.class
-com\bestbuy\playground\base\BaseTest.class
-com\bestbuy\playground\base\CommonAPI.class
-com\bestbuy\playground\requests\ServicesAPI.class
