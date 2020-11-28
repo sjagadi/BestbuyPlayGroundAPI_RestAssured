@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;
 
-public class AddProductTest extends AbstractProductsAPI {
+public class AddProduct_Nominal extends AbstractProductsAPI {
     @Test
     public void ShouldAddProductAndVerify() {
         bestbuy.productsAPI()
