@@ -1,7 +1,5 @@
 package com.bestbuy.playground.base;
 
-
-import com.github.javafaker.Faker;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -17,11 +15,10 @@ import static io.restassured.RestAssured.basic;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.lessThan;
 
-public abstract class CommonAPI implements BaseTest {
+public class CommonAPI extends BaseTest {
     public static RequestSpecBuilder requestSpec;
     public static final String DEFAULT_USER_NAME = prop.getProperty("username");
     public static final String DEFAULT_USER_PASSWORD = prop.getProperty("password");
-    public static Faker faker = new Faker();
     public static RequestSpecification requestSpec() {
         requestSpec = new RequestSpecBuilder()
                 .setContentType(ContentType.JSON)
